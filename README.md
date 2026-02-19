@@ -4,7 +4,7 @@ Send code from Neovim to a running pi session. No config, no ports — they find
 
 ## Demo
 
-<video src="demo.mov" controls></video>
+![demo](demo.gif)
 
 ## Install
 
