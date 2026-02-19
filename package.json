@@ -1,0 +1,19 @@
+{
+  "name": "pi-nvim-bridge",
+  "version": "0.1.0",
+  "description": "Bridge between Neovim and pi coding agent via Unix sockets",
+  "license": "MIT",
+  "type": "module",
+  "files": [
+    "extensions/",
+    "lua/"
+  ],
+  "peerDependencies": {
+    "@mariozechner/pi-coding-agent": "*"
+  },
+  "devDependencies": {
+    "@mariozechner/pi-coding-agent": "*",
+    "@types/node": "^22.0.0",
+    "typescript": "^5.0.0"
+  }
+}
