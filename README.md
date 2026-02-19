@@ -82,3 +82,7 @@ Response:
 {"status": "ok", "cwd": "/path/to/project"}
 {"error": "reason"}
 ```
+
+## Credits
+
+Inspired by [pi.nvim](https://github.com/pablopunk/pi.nvim) by [@pablopunk](https://github.com/pablopunk).
