@@ -2,6 +2,10 @@
 
 Send code from Neovim to a running pi session. No config, no ports — they find each other automatically via the working directory.
 
+## Demo
+
+<video src="demo.mov" controls></video>
+
 ## Install
 
 ### 1. Pi extension
