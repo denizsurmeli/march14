@@ -97,7 +97,6 @@ export default function (pi: ExtensionAPI) {
 
     server.listen(sock, () => {
       ctx.ui.notify(`nvim bridge: ${sock}`, "info");
-      ctx.ui.setStatus("nvim-bridge", ctx.ui.theme.fg("dim", "bridge:sock"));
     });
 
     server.on("error", (err: NodeJS.ErrnoException) => {
